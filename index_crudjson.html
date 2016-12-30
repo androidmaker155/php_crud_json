@@ -40,7 +40,7 @@ $jsonfile = json_decode($getfile);
 </div>
 <div class="container">
 	<div class="btn-toolbar">
-		<a class="btn btn-primary" href="insert.php"><i class="icon-plus"></i> Insert Data</a>
+		<a class="btn btn-primary" href="insert.html"><i class="icon-plus"></i> Insert Data</a>
 		<div class="btn-group"> </div>
 	</div>
 </div>
@@ -66,8 +66,8 @@ $jsonfile = json_decode($getfile);
 					<td><?php echo $obj->age; ?></td>
 					<td><?php echo $obj->gender; ?></td>
 					<td>
-						<a class="btn btn-xs btn-primary" href="update.php?id=<?php echo $index; ?>">Edit</a>
-						<a class="btn btn-xs btn-danger" href="delete.php?id=<?php echo $index; ?>">Delete</a>
+						<a class="btn btn-xs btn-primary" href="update.html?id=<?php echo $index; ?>">Edit</a>
+						<a class="btn btn-xs btn-danger" href="delete.html?id=<?php echo $index; ?>">Delete</a>
 					</td>
 				</tr>
 				<?php endforeach; ?>
