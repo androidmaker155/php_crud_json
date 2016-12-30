@@ -58,7 +58,7 @@ $jsonfile = json_decode($getfile);
 					<th>Gender</th>
 					<th>Action</th>
 				</tr>		
-				<?php $no=0;foreach ($jsonfile->records as $index => $obj): $no++;  ?>
+				<?php foreach ($jsonfile->records as $index => $obj):   ?>
 				<tr>
 					<td><?php echo $no; ?></td>
 					<td><?php echo $obj->fname; ?></td>
